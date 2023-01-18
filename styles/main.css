@@ -165,12 +165,8 @@
   }
 
   .nav a:active {
-  background-color: lightblue;
-  color: #232323;
-}
-
-   nav <li:hover {
- color: lightblue;
+  background-color: #d3eff8;
+  color: #2196F3;
 }
 
 /* FOOTER style
@@ -189,12 +185,18 @@
 .footer-text {
   font-size: 15px;
   color: white;
-  text-align: right;
+  text-align: -webkit-right;
+  right: 20px;
+  height: center;
+}
+
+.footer-text2 {
+  font-size: 15px;
+  color: white;
+  text-align: 
   right: 10px;
   height: center;
- 
 }
-   
 
 /* LINKS style
    ________________*/
