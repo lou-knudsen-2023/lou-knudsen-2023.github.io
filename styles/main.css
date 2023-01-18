@@ -1,12 +1,44 @@
-<!DOCTYPE css>
 
-<style> [
+<style> 
+/* element sectors */
+
  h1 {
-     color: #67625b;
-     
+     color: #eb8900;
+ }
+
+ body {
+  font-size: 22px;   
  }
 
  p {
-     color: #6e6969
- }]
+  color: purple;
+  font-family: sans-serif;
+}
+
+
+}
+
+/* class sectors */
+
+  .orange {
+   color: #ffae1b;
+
+  .highlight {
+  text-transform: "Knudsen";
+  background-color: gold;
+}
+
+/* media style */
+@media {
+ TO BE ENTERED
+}
+
+
+/* margins and padding style */
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
 </style>
