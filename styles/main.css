@@ -1,59 +1,200 @@
 
-<style> 
 /* element sectors
    ________________*/
 
  h1 {
-  color: #eb8900;
-  font-family: sans-serif;
+  font-size: 300%;
+  font-family: 'Krub', sans-serif;
+  font-weight:bold;
+  text-align: center;
+  color: #48494a;
+  text-shadow: 5px 5px white;
+ }
+
+ h4 {
+  font-size: 1.5em;
+  font-family: 'Shadows Into Light Two', sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+  color: #f74556;;
+  text-shadow: 1px 1px #918a7e;
  }
 
  body {
-  font-size: 22px;   
-  font-family: sans-serif;
+  font-size: 22px;
+  font-family: 'Krub', sans-serif;
+  font-weight:200;
+  font-style: normal
  }
 
  p {
-  color: purple;
-  font-family: sans-serif;
+  font-family: 'Krub', sans-serif;
+  font-weight:200;
+  font-style: normal;
+  text-align: center;
+  bottom: auto;
+}
+
+ ul {
+  display: inline-block; text-align: left;
 }
 
 
-/* class sectors
+
+/* IMAGES
+   ________________*/
+
+ html {
+  background: url(https://coolbackgrounds.io/images/backgrounds/white/white-trianglify-b79c7e1f.jpg) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ .homepage-picture {
+ text-align: center;
+ margin: auto;
+ webkit-fill-available: 100%;
+ }
+
+.tulips-picture
+{
+  width: 100%;
+  z-index: 0;
+}
+
+/* COLORS selectors
    ________________*/
 
   .orange {
    color: #ffae1b;
+  }
 
-  .highlight {
-  text-transform: "Knudsen";
-  background-color: gold;
-}
+  .charcoal {
+   color: #5e5b5b;
+  }
 
-/* media style */
-@media {
- TO BE ENTERED
-}
+  .pink {
+   color: #ee44a7;
+  }
 
-   
-/* media style
+  .white {
+   color: #ffffff;
+  }
+
+
+/* PADDING & MARGINS 
    ________________*/
    
-#buttons {
- font-size: 22px;
- color: #eff7fb
+ .main-heading {
+  min-height: 2vmax;
+  margin-top: 112px;
+  margin-bottom: 10px;
+ }
+   
+ .main-sub-heading {
+  min-height: 2vmax;
+  margin-top: 1px;
+  margin-bottom: 10px;
+ }
+
+ .highlight {
+ text-transform: "Knudsen";
+ background-color: #ee44a7;
 }
 
-#top-section-body
-   border: 1px solid black;
+ .main-page-list {
+  text-align: center;
+}
 
-/* margins and padding style 
-      ________________*/
-   
   .box {
     border-style: solid;
     border-color: black;
     border-width: 5px;
     text-align: center;
   }
-</style>
+
+/* media style 
+   ________________*/
+
+@media (max-width:1200) {
+ 
+
+}
+
+/* NAVBAR 
+   ________________*/
+
+  .nav {
+  overflow: hidden;
+  width:100%;
+  height: 40px;
+}
+
+  .nav a {
+  float: left;
+  color: #232323;
+  font-size: 17px;
+  font-family: 'Krub', sans-serif;
+  text-align: center;
+
+  /* border */
+  display: table;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  bottom: 50%;
+  right: 10px:
+  left: 10px:
+  border: 3px: 
+
+  border-height: 25px
+  border-radius: 25px;
+  box-color: #48494a;
+  box-shadow: 3px 3px;
+  text-align: -webkit-center;
+  padding: 0px 25px;
+}
+
+  .nav a:hover {
+  background-color: #ddd;
+  color:#2bb8e6;
+  }
+
+  .nav a:active {
+  background-color: lightblue;
+  color: #232323;
+}
+
+   nav <li:hover {
+ color: lightblue;
+}
+
+/* FOOTER style
+   ________________*/
+
+.footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 50px;
+  background-color: #48494a;
+  border-top: 1px solid white;
+}
+
+.footer-text {
+  font-size: 15px;
+  color: white;
+  text-align: right;
+  right: 10px;
+  height: center;
+ 
+}
+   
+
+/* LINKS style
+   ________________*/
