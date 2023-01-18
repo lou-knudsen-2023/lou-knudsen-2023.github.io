@@ -1,13 +1,16 @@
 
 <style> 
-/* element sectors */
+/* element sectors
+   ________________*/
 
  h1 {
-     color: #eb8900;
+  color: #eb8900;
+  font-family: sans-serif;
  }
 
  body {
   font-size: 22px;   
+  font-family: sans-serif;
  }
 
  p {
@@ -16,9 +19,8 @@
 }
 
 
-}
-
-/* class sectors */
+/* class sectors
+   ________________*/
 
   .orange {
    color: #ffae1b;
@@ -33,8 +35,21 @@
  TO BE ENTERED
 }
 
+   
+/* media style
+   ________________*/
+   
+#buttons {
+ font-size: 22px;
+ color: #eff7fb
+}
 
-/* margins and padding style */
+#top-section-body
+   border: 1px solid black;
+
+/* margins and padding style 
+      ________________*/
+   
   .box {
     border-style: solid;
     border-color: black;
