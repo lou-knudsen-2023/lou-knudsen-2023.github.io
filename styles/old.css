@@ -1,0 +1,15 @@
+/* buttons */
+
+<div>
+<nav class="navbar">
+<a href:"../blog/te-houtaewa-template.html">
+  <button class="btn btn-primary btn-lg">About Me</button>
+</a>
+<a href:"../blog/te-houtaewa-template.html">
+  <button class="btn btn-primary btn-lg">My Values</button>
+</a>
+<a href:"../blog/te-houtaewa-template.html">
+  <button class="btn btn-primary btn-lg">Blog Posts</button>
+</a>
+</nav>
+</div>
