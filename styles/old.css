@@ -1,15 +1,52 @@
-/* buttons */
+/* _______LEARNING NEW THINGS - EXAMPLE CSS________*/
 
-<div>
-<nav class="navbar">
-<a href:"../blog/te-houtaewa-template.html">
-  <button class="btn btn-primary btn-lg">About Me</button>
-</a>
-<a href:"../blog/te-houtaewa-template.html">
-  <button class="btn btn-primary btn-lg">My Values</button>
-</a>
-<a href:"../blog/te-houtaewa-template.html">
-  <button class="btn btn-primary btn-lg">Blog Posts</button>
-</a>
-</nav>
-</div>
+
+body {
+  font-family:sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+  padding-top:5px;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  
+}
+
+section {
+ background-color: #8d8d8d;
+  width: auto;
+}
+
+.macgyver  {
+  width: 20vw;
+  height: 20vw;
+}
+
+.macgyver2 {
+  width: 30vw;
+  height: 30vw;
+  }
+
+/* _______LEARNING NEW THINGS - EXAMPLE CSS________*/
+
+
+.parent-box {
+  position: relative;
+}
+
+.dog-blue-1 {
+  position: fixed;
+  top: 10px
+  
+}
+
+.dog-beige-2 {
+
+}
+ 
+.dog-purple-3 {
+
+}
