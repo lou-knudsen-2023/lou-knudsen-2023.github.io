@@ -19,7 +19,6 @@
     </div>   
   
 <body>
-
         <div class="main-content-box">
           <p>
             <div class="main-content">
@@ -31,9 +30,9 @@
             <div class="smltext">
                 'Relative', 'Absolute' and 'Fixed' are terms used in CSS to determine in what position on the page elements will be placed.
                 <br></br>
-                There are many types of positions that you can use to set an element's position on a webpage. E.g. static, relative, absolute, fixed, sticky, initial and inherit. 
+                There are many types of positions that you can use to set an element's position on a webpage e.g. static, relative, absolute, fixed, sticky, initial and inherit. 
                 <br></br> 
-                If you google relative, absolute and fixed positioning get something like this: 
+                If you google 'Relative', 'Absolute' and 'Fixed' positioning get something like this: 
             </div>
           
 <br></br>
@@ -43,16 +42,16 @@
 <br></br>
            
             <div class="smltext">
-              <em class="offblack">==> But what does that actually mean and how can we put that into practice????</em>
+              <em class="offblack"><strong>But what does that actually mean and how can we put that into practice?!</strong></em>
 <br></br>
-              The first to know is that your webpage will often have a default setting of ‘static’. Which is represented like this in your CSS code:  position: static;
+              The first thing to know is that your webpage, in the absense of a position tag, will have a default setting of ‘static’. Which is represented like this in your CSS code:  position: static;
 <br></br>
               Static means it will just follow the standard rules for HTML i.e. read the element's position by the order in which it is coded in the html page. 
             </div>
 <br></br>  
             <div class="smallest-text">
                 <div>
-                   <img class="one-picture2" src="../images/example-css.png"> 
+                   <img class="code-css-picture" src="../images/example-css.png"> 
                  </dir>
 <br></br>                  
                 <div>
@@ -121,7 +120,7 @@
               </div>
 <br></br> 
               <div>
-                 <img class="code-picture" src="../images/absolute-code.png">
+                 <img class="code-picture" src="../images/position-absolute-code.png">
               </div>
           
 
@@ -195,9 +194,12 @@
                 </div>
 
                    
-              </p>
+            <div class="smallest-text">
 
-                   
+                <em>Remembering that for the other coloured boxes to fall in-line you will need to fix a position for each element.</em>             
+           
+            </div>
+<br></br>
           
             <div class="center-text">
               __________
@@ -213,57 +215,53 @@
             </div>  
               
               <div class="smltext">
-                   <em>"The element is positioned relative to its normal position"</em>
+                   <em>"The element is positioned relative to the browser window."</em>
               </div>
 <br></br> 
               <div>
-                 <img class="code-picture" src="../images/position-relative-code.png">
+                 <img class="code-picture" src="../images/position-fixed-code.png">
               </div>        
 <br></br>     
      
             <div class="smltext">
-                Relative positioning acts a lot like static positioning, however on top of being static it also allows you to set conditions e.g top: 70px; left: 70px;
+                Fixed positioning means fixed to a certain place on a browser window. It ignores all other elements and considers <html> to be its parent container. 
 <br></br>
-                Think of it like moving a statue in your garden. The statue never changes, but you can move its position on the page based on its static properties.           
+                Let’s continue our example and change our absolute value in the blue box to ‘fixed’.           
                 </div>
 <br></br>  
                  <div>
-                   <img class="code-css-picture" src="../images/position-relative-css.png"> 
+                   <img class="code-css-picture" src="../images/fixed-css.png"> 
                  </dir>
 <br></br>                   
                   <div>
-                   <img class="one-picture2" src="../images/absolute-error.png"> 
+                   <img class="one-picture2" src="../images/fixed-example.png"> 
                 </div>
 <br></br>
-            <div class="smltext">
-                IMPORTANT: One thing to note with relative positioning is that in order to get consistency with your elements; if you apply it to one element, you have to apply it to all elements. Otherwise you will start to see elements overlapping others. Just like the example below.            
-              </div>
-<br></br>  
-                 <div>
-                     <img class="one-picture2" src="../images/renamed.jpg"> 
-                </div>
+                As you can see it has ignored our parent-box position, even though it has a value of relative. 
+                 </div>
 <br></br>
-              </p>
-          
-            <div class="center-text">
-              __________
-            </div>
-
-
                    
-        
+            <div class="smltext">
+                <strong>Interesting...</strong>
+              <br>
+              A ‘fixed’ position element will ALWAYS still be in the same position on the page when you scroll. So if you place a logo at the top left of your page and scroll down to the bottom. That logo will stay positioned at the top left no matter how far you've scrolled down the page. 
+             <br></br>
+              Importantly, this is not the case for absolute. Absolute will disappear if you scroll enough down the page. 
+            </div>
+                   
+<br></br>
+            <div >
+              <h6>Congratulations on making it to the end! If you have any further questions, don't hesitate to hit me up in discord :)</h6>
+            </div>  
+
         </div>
-    </p>
   
-</body>
-
-   
-
-  <div class="footer">
-  <footer class="footer-text">
-    <strong>Lou knudsen TM</strong>
-  </footer>
+    <div class="footer">
+    <footer class="footer-text">
+      <strong>Lou knudsen TM</strong>
+    </footer>
+  </body>
+    
 </div>
 
-  
 </html>
