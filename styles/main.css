@@ -99,15 +99,15 @@
 .one-picture2 {
  text-align: center;
  position: relative;
- width: 70vw;
- height: 60vw;
+ width: 40vw;
+ height: 34vw;
 }
 
 .code-css-picture {
  text-align: center;
  position: relative;
- width: 70vw;
- height: 40vw;
+ width: 50vw;
+ height: 20vw;
 }
 
 
@@ -129,8 +129,8 @@
  text-align: center;
  border: 1px gray;
  position: relative;
- width: 30vw;
- height: 4vw;
+ width: 13vw;
+ height: 1.5vw;
 }
 
  #tulip-photo {
