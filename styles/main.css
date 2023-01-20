@@ -12,12 +12,12 @@
  }
 
  h2 {
-  font-size: 100%;
+  font-size: 200%;
   font-family: 'Krub', sans-serif;
   text-align: center;
   font-weight: normal;
   text-align: center;
-  color:  #b6d1d5;
+  color: #00BCD4;
  }
 
  h4 {
@@ -92,7 +92,7 @@
 .one-picture {
  text-align: center;
  position: relative;
- width: 80vw;
+ width: 70vw;
  height: auto;
 }
 
@@ -246,8 +246,8 @@
   background-color: #fffdfd;
   word-wrap: break-word;
 
-  left: 5%;
-  right: 5%;
+  left: 10%;
+  right: 10%;
 
   position: absolute;
  }
