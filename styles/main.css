@@ -7,7 +7,7 @@
   font-family: 'Shadows Into Light Two', sans-serif;
   text-align: center;
   font-weight: normal;
-  color: #21cace;
+  color:#21cace;
   text-shadow: 1px 1px #0e6a73;
  }
 
@@ -31,6 +31,15 @@
  }
 
  h5 {
+  font-size: 2.5em;
+  font-family: 'Shadows Into Light Two', sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+  color: #21cace;
+ }
+
+ h5green {
   font-size: 2.5em;
   font-family: 'Shadows Into Light Two', sans-serif;
   font-weight: bolder;
@@ -236,22 +245,20 @@
  }
 
  .main-content-box {
-  border-style: double;
-  border-color: #cbcece;
+  border-color: #e2e2e2;
   border-width: 3px 3px;
-  box-shadow: 3px 7px #ffffff;
+  box-shadow: 7px 7px #a8a8a8;
   
   padding-left: 20px;
   padding-bottom: 100px;
   padding-right: 20px;
   margin-bottom: 100px;
   
-  background-color: #e1e7e7;
+  background-color: #ffffff;
   word-wrap: break-word;
 
-  left: 10%;
-  right: 10%;
-
+  left: 8%;
+  right: 8%;
   position: absolute;
  }
 
@@ -290,20 +297,21 @@
 
 /* * <!-- still working through section    --> */ */
 
-.all-blog-content {
-  border-style: double;
+.all-blog-contentx {
+  border-style: solid;
   border-color: #cbcece;
-  border-width: 3px 3px;
+  border-width: 3px;
+  background-color: #e1e7e7;
+  text-align: center;
+  position: absolute;
   box-shadow: 3px 7px #ffffff;
   margin: 1rem;
   padding: 2rem 2rem;
-  text-align: center;
-  background-color: #e1e7e7;
   word-wrap: break-word;
 
 }
 
-.all-blog-section {
+.all-blog-sectionx {
   display: inline-block; 
   border-style: double;
   border-color: #86c3c3;
@@ -313,7 +321,42 @@
   vertical-align: middle;
 }
 
-  
+
+/*COLUMNS  */
+  .column1 {
+  float: left;
+  width: 40%;
+  background-color: #ffffff;
+  padding: 2rem 2rem;
+  text-align: center;
+  margin-right: 2px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+
+}
+
+  .column2 {
+  float: left;
+  width: 40%;
+  background-color: #ffffff; 
+  padding: 2rem 2rem;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  margin-left: 5px; 
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+}
 
 
 /* MEDIA queries   (NOTE: DOUBLE CHECK THIS!)
@@ -333,6 +376,13 @@
   }
 }
 
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 
 
 /* NAVBAR 
