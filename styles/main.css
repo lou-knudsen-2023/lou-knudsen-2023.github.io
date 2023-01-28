@@ -1,5 +1,5 @@
 
-/****** PAGE ELEMENTS *****/
+/*----- PAGE ELEMENTS ----*/
 
 html,
 body {
@@ -14,27 +14,22 @@ html {
   background-size: cover;
 }
 
-a {
-  font-family: 'Shadows Into Light Two', sans-serif;
-  font-style: normal;
-  font-size: 25px;
-  text-align: left;
-  margin: 2 10 2 10;
-  width: 100%;
-  height: auto;
-}
+
 
 .main-heading,
 .main-sub-heading,
 .main-sub-heading-core,
+.main-sub-heading-tech,
 .nav,
-.main-content-box
+.main-content-box,
+.a,
+.txt-content
 {
   font-family: 'Shadows Into Light Two', sans-serif;
   font-style: normal;
 }
 
-/***** NAVIGATION bar *****/
+/*----- NAVIGATION bar ----*/
 
 .nav {
   display: block;
@@ -66,7 +61,7 @@ a {
   display: none;
 }
 
-/* headings */
+/*----- HEADINGS -----*/
 
 .main-heading {
   text-align: center;
@@ -83,37 +78,31 @@ a {
 .main-sub-heading {
   font-size: 45px;
   line-height: 1; /* line-height 1 = 100% of font-size */
+  text-decoration: none;
   color:#656373;
 }
 
 .main-sub-heading-core {
-  text-decoration-line: underline;
   font-size: 45px;
   line-height: 1;
+  text-decoration-line: underline;
   color:#6bd5de;
 }
 
-.main-sub-heading-tech {
-  text-decoration-line: underline;
+.main-sub-heading-tech { 
   font-size: 45px;
-  line-height: 45px;
-  color:#c1dbff; 
+  line-height: 1;
+  text-decoration-line: underline;
+  color:#8fb9f4
+}
+
+.txt-content {
+  font-size: 20px;
 }
 
 /* body, paragraph, lists */
-.paragraph-left {
-  font-family: 'Shadows Into Light Two', sans-serif;
-  font-style: normal;
-  font-size: 25px;
-  text-align: left;
-  margin: 2 2 2 2;
-  width: 100%;
-  height: auto;
-}
 
 .quote {
-  font-family: 'Shadows Into Light Two', sans-serif;
-  font-style: normal;
   font-size: 20px;
   text-align: center;
   margin: 2 10 2 10;
@@ -121,38 +110,34 @@ a {
   color:rgb(142, 147, 153)
 }
 
-.h2 {
-  color: rgb(62, 62, 73);
-}
 
-/* helper classes */
+/*----HELPER CLASSES ----*/
 .txt-center {
   text-align: center;
  }
+
+.txt-left {
+  text-align: left;
+} 
+
+.softgrey {
+  color: rgb(62, 62, 73);
+}
+
 
 /* images, videos , pictures */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
   width: 70%;
 }
 
-.centre-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.centre-img-mid {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/***** CONTAINERS *****/
+/*---- CONTAINERS ----*/
 .page-wrapper {
-  padding: 10px;
+  padding: 10px 10px 50px 10px;
 }
 
 .main-content-box {
@@ -175,28 +160,30 @@ a {
   justify-content: space-between;
 }
 
+/*----COLUMNS-----*/
 .blog-column {
   flex-grow: 1;
   padding: 1rem;
   text-align: center; 
 }
 
-/*columns  */
 .column1 {
+  width: 50%;
   background-color: #6bd5de;
   margin-right: 5px;
 }
 
 .column2 {
-  background-color: #c1dbff; 
+  width: 50%;
+  background-color: #8fb9f4; 
   margin-left: 5px;
 }
 
-/***** FOOTER ******/
+/*---- FOOTER ----*/
 .footer {
   position: fixed;
   width:100%;
-  bottom:5px;
+  bottom:0px;
   left:0px;
   background-color: #a4acb4;
   border-top: 1px solid white;
@@ -211,7 +198,7 @@ a {
 }
 
 
-/**** MEDIA QUERIES ****/
+/*----- MEDIA QUERIES ----*/
 /* Laptop:when the screen is 1200px wide or less */
 @media only screen and (max-width: 1200px) {
   .nav {
@@ -230,15 +217,11 @@ a {
       display: none;
   } 
 
-  .p {
-   font-size: 25px;
-  }
+  .txt-content {
+    font-size: 20px;
+ }
 
-  .paragraph-left{
-    font-size: 25px;
-  }
-
-  .centre-img{
+  /* .centre-img{
     width: 50%;
     max-width: 350px;
     height:auto;
@@ -247,7 +230,7 @@ a {
     width: 50%;
     max-width: 400px;
     height:auto;
-  }
+  } */
 }
 /* Tablet:when the screen is 768px wide or less */
 @media only screen and (max-width: 768px) {
@@ -259,13 +242,9 @@ a {
     font-size: 30px;
   } 
 
-  .p {
+  .txt-content {
     font-size: 20px;
-   }
-
-   .paragraph-left {
-    font-size: 20px;
-   }
+ }
 }
 /* Mobile:when the screen is 425px wide or less */
 @media only screen and (max-width: 425px) {
@@ -290,14 +269,16 @@ a {
     margin: 0px 0px 10px 0px;
   }
 
-  .p {
+  .txt-content {
     font-size: 15px;
-   }
-
-   .paragraph-left {
-    font-size: 15px;
-   }
+ }
 }
 
-/*  */
-/****** COLORS *****/
+
+/* a {
+  font-size: 25px;
+  text-align: left;
+  margin: 2 10 2 10;
+  width: 100%;
+  height: auto;
+} */
