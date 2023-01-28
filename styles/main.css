@@ -14,8 +14,6 @@ html {
   background-size: cover;
 }
 
-
-
 .main-heading,
 .main-sub-heading,
 .main-sub-heading-core,
@@ -165,8 +163,8 @@ html {
   border-right: 10px;
   border-left: 10px;
   box-shadow: 7px 7px #a8a8a8;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
   box-sizing: border-box;
   padding: 40px;
 }
