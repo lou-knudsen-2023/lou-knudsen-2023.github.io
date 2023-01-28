@@ -68,36 +68,48 @@ html {
   color:#21cace;
   text-shadow: 1px 1px #0e6a73;
   text-decoration: none;
-  font-size: 50px;
-  line-height: 50px;
+  font-size:70px;
+  line-height: 1.2;
   border-radius: 4px;
   padding-top: 30px;
   padding-bottom: 5px;
 }
 
 .main-sub-heading {
-  font-size: 45px;
-  line-height: 1; /* line-height 1 = 100% of font-size */
+  font-size: 60px;
+  line-height: 1.2; /* line-height 1 = 100% of font-size */
   text-decoration: none;
   color:#656373;
 }
 
 .main-sub-heading-core {
-  font-size: 45px;
-  line-height: 1;
+  font-size: 60px;
+  line-height: 1.2;
+  text-decoration-line: underline;
+  color:#8fb9f4;
+}
+
+.main-sub-heading-tech { 
+  font-size: 60px;
+  line-height: 1.2;
   text-decoration-line: underline;
   color:#6bd5de;
 }
 
-.main-sub-heading-tech { 
-  font-size: 45px;
-  line-height: 1;
-  text-decoration-line: underline;
-  color:#8fb9f4
+.txt-content {
+  font-size: 25px;
 }
 
-.txt-content {
-  font-size: 20px;
+.txt-content-link {
+  font-size: 25px;
+}
+
+.txt-content-main-heading {
+  font-size: 45px;
+}
+
+.txt-content-sub-heading {
+  font-size: 30px;
 }
 
 /* body, paragraph, lists */
@@ -105,8 +117,8 @@ html {
 .quote {
   font-size: 20px;
   text-align: center;
-  margin: 2 10 2 10;
-  width: 100%;
+  margin: 2px 10px 2px 10px;
+  max-width: 100%;
   color:rgb(142, 147, 153)
 }
 
@@ -122,6 +134,11 @@ html {
 
 .softgrey {
   color: rgb(62, 62, 73);
+}
+
+.fancyline {
+  text-decoration: dashed;
+  text-align: center;
 }
 
 
@@ -221,17 +238,15 @@ html {
     font-size: 20px;
  }
 
-  /* .centre-img{
-    width: 50%;
-    max-width: 350px;
-    height:auto;
-  }
-  .centre-img-mid{
-    width: 50%;
-    max-width: 400px;
-    height:auto;
-  } */
+  .txt-content-main-heading {
+    font-size: 45px;
+ }
+
+  .txt-content-sub-heading {
+    font-size: 27px;
+ }
 }
+
 /* Tablet:when the screen is 768px wide or less */
 @media only screen and (max-width: 768px) {
   .main-heading {
@@ -245,7 +260,17 @@ html {
   .txt-content {
     font-size: 20px;
  }
+
+ .txt-content-main-heading {
+  font-size: 45px;
 }
+
+.txt-content-sub-heading {
+  font-size: 27px;
+}
+
+}
+
 /* Mobile:when the screen is 425px wide or less */
 @media only screen and (max-width: 425px) {
   .nav a {
@@ -269,16 +294,19 @@ html {
     margin: 0px 0px 10px 0px;
   }
 
+  .txt-content-main-heading {
+    font-size: 35px;
+  }
+
+  .txt-content-sub-heading {
+    font-size: 20px;
+  }
+
+  .txt-content-link {
+    font-size: 15px;
+  }
+
   .txt-content {
     font-size: 15px;
- }
+  }
 }
-
-
-/* a {
-  font-size: 25px;
-  text-align: left;
-  margin: 2 10 2 10;
-  width: 100%;
-  height: auto;
-} */

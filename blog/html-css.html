@@ -24,246 +24,232 @@
 </div>
 
 <br></br>
-<br></br>
 
 <body>
   <div class="main-content-box">
+    <div> 
+      <h1 class="main-sub-heading-tech txt-center">What are the differences between 'Relative', 'Absolute' and 'Fixed' positioning?</h1>
+    </div>   
+    <br></br><!--TO DO:look at creating padding for subheadings instead of using breaks-->  
 
-        <div> 
-          <h1 class="main-sub-heading-tech txt-center">What are the differences between 'Relative', 'Absolute' and 'Fixed' positioning?</h1>
-        </div>   
-
-        <br></br>
-          
-            <div class="paragraph-left">
-              <p>
-                'Relative', 'Absolute' and 'Fixed' are terms used in CSS to determine in what position on the page elements will be placed.
-                <br></br>
-                There are many types of positions that you can use to set an element's position on a webpage e.g. static, relative, absolute, fixed, sticky, initial and inherit. 
-                <br></br> 
-                If you google 'Relative', 'Absolute' and 'Fixed' positioning get something like this: 
-              </p>
-            </div>        
-        <br></br>
+      <div class="txt-content txt-left">
+        <div>
+          'Relative', 'Absolute' and 'Fixed' are terms used in CSS to determine in what position on the page elements will be placed.
+          There are many types of positions that you can use to set an element's position on a webpage e.g. static, relative, absolute, fixed, sticky, initial and inherit. 
+          If you google 'Relative', 'Absolute' and 'Fixed' positioning get something like this: 
+        </div>
+          <br></br>
+            <img class="center" src="../images/google-def.png" alt="technical explanations of relative, absolute and fixed">
+              <br></br>
             <div>
-               <img class="centre-img-mid" src="../images/google-def.png">
+            <h4 class="txt-content-sub-heading">But what does that actually mean and how can we put that into practice?</h4>
+            </div>  
+            <div>
+                The first thing to know is that your webpage, in the absense of a position tag, will have a default setting of ‘static’. Which is represented like this in your CSS code:  position: static;
             </div>
-        <br></br>
-           
-            <div class="paragraph-left">
-              <h3>But what does that actually mean and how can we put that into practice?</h3>
-        <br></br>
-              The first thing to know is that your webpage, in the absense of a position tag, will have a default setting of ‘static’. Which is represented like this in your CSS code:  position: static;
-        <br></br>
-              Static means it will just follow the standard rules for HTML i.e. read the element's position by the order in which it is coded in the html page. 
+              <br></br>
+            <div> 
+                Static means it will just follow the standard rules for HTML i.e. read the element's position by the order in which it is coded in the html page. 
             </div>
-
-        <br></br>  
-              
-                <div class="paragraph-left">
-                <img class="code-css-picture" src="../images/example-css.png"> 
-              </div> 
-
-      <br></br>                  
-                <div>
-                     <img class="one-picture2" src="../images/example.jpg"> 
-                </div>
-
-                <em>For the rest of this blog we will use this example of three coloured boxes with adorable dogs in them. Nestled in a parent grey box.</em>             
-             
-        </div>
-    <br></br>
-
-        <div class="center-text">
-          __________
-        </div>
+              <br></br>  
+            <div> 
+              For the rest of this blog we will use this example of our code and how it displays - three coloured boxes with adorable dogs in them. Nestled in a parent grey box. 
+            </div>
+            <br></br>  
+            <div>
+              <img class="center" src="../images/example-css.png" alt="screenshot showing empty classes parent-box, dog-blue1, dog-beige2 and dog-purple3"> 
+            </div> 
+              <br></br> 
+                        
+            <div>
+              <img class="center" src="../images/example.jpg"> 
+            </div>
+        
+      </div>
+      <br></br>
 
 
-          
   <!--RELATIVE POSITIONING -->
-            <div >
-              <h5>Relative positioning</h5>
-            </div>  
-              
-              <div class="smltext">
-                   <em>"The element is positioned relative to its normal position"</em>
-              </div>
-<br></br> 
-              <div>
-                 <img class="code-picture" src="../images/position-relative-code.png">
-              </div>        
-<br></br>     
-     
-            <div class="smltext">
-                Relative positioning acts a lot like static positioning, however on top of being static it also allows you to set conditions e.g top: 70px; left: 70px;
-<br></br>
-                Think of it like moving a statue in your garden. The statue never changes, but you can move its position on the page based on its static properties.           
-                </div>
-<br></br>  
-                 <div>
-                   <img class="code-css-picture" src="../images/position-relative-css.png"> 
-                 </dir>
-<br></br>                   
-                  <div>
-                   <img class="one-picture2" src="../images/absolute-error.png"> 
-                </div>
-<br></br>
-            <div class="smltext">
-                IMPORTANT: One thing to note with relative positioning is that in order to get consistency with your elements; if you apply it to one element, you have to apply it to all elements. Otherwise you will start to see elements overlapping others. Just like the example below.            
-              </div>
-<br></br>  
-                 <div>
-                     <img class="one-picture2" src="../images/renamed.jpg"> 
-                </div>
-<br></br>
-              </p>
-          
-            <div class="center-text">
-              __________
-            </div>
 
+      <div >
+        <h4 class="txt-center txt-content-main-heading" >Relative positioning</h4>
+      </div>  
+        <div class="txt-center txt-content">
+          <em>"The element is positioned relative to its normal position"</em>
+        </div>
+          <br></br> 
+          <div>
+              <img class="center" src="../images/position-relative-code.png">
+          </div>        
+            <br></br>     
+
+          <div class="txt-content">
+            Relative positioning acts a lot like static positioning, however on top of being static it also allows you to set conditions e.g top: 70px; left: 70px;
+            Think of it like moving a statue in your garden. The statue never changes, but you can move its position on the page based on its static properties.           
+          </div>
+            <br></br>  
+          <div>
+            <img class="center" src="../images/position-relative-css.png"> 
+          </div>
+            <br></br>                   
+          <div>
+            <img class="center" src="../images/absolute-error.png"> 
+          </div>
+            <br></br>
+
+          <div class="txt-content">
+            IMPORTANT: One thing to note with relative positioning is that in order to get consistency with your elements; if you apply it to one element, you have to apply it to all elements. Otherwise you will start to see elements overlapping others. Just like the example below.            
+          </div>
+            <br></br>  
+          
+          <div>
+                <img class="center"  src="../images/renamed.jpg"> 
+          </div>
+          <br></br>
+          <div class="fancyline">____________</div>  
+          <br></br>
                    
-          <!--ABSOLUTE POSITIONING -->
-            <div>
-              <h5>Absolute positioning</h5>
-            </div>  
-              <div class="smltext">
-                   <em>"The element is positioned absolutely to its first positioned parent."</em>
-              </div>
-<br></br> 
-              <div>
-                 <img class="code-picture" src="../images/position-absolute-code.png">
-              </div>
-          
-
-<br></br>          
-            <div class="smltext">
+<!--ABSOLUTE POSITIONING -->
+      <div>
+        <h4 class="txt-center txt-content-main-heading">Absolute positioning</h4>
+      </div>  
+        <div class="txt-center txt-content">
+          <em>"The element is positioned absolutely to its first positioned parent."</em>
+        </div>
+          <br></br> 
+          <div>
+            <img class="center" src="../images/position-absolute-code.png">
+          </div>
+            <br></br>               
+            <div class="txt-content">
               Absolute is a great positioning tool if you want to put something in a specific place on a webpage, but you don't want other elements to move around it. 
-<br></br>
-             Absolute also allows you to apply ‘top’ ‘bottom’, ‘left’ and ‘right’ commands.   
-<br></br>
-             In the example below. We have applied absolute positioning to the blue dog box, and as you can see the second beige dog box has disappeared! This is because the second beige box renders as if the blue box doesn't even exist at all!    
-<br></br>    
-              <div>
-                     <img class="code-css-picture" src="../images/absolute-code-real.png"> 
-                </div>
-<br></br>     
-              <div>
-                     <img class="one-picture2" src="../images/absolute-example.png"> 
-                </div>
-<br></br>               
-            Fortunately, the beige box hasn't actually disappeared; it is just hidden behind the blue box. 
-<br></br>
+              <br></br>
+              Absolute also allows you to apply ‘top’ ‘bottom’, ‘left’ and ‘right’ commands.   
+              <br></br>
+              In the example below. We have applied absolute positioning to the blue dog box, and as you can see the second beige dog box has disappeared! This is because the second beige box renders as if the blue box doesn't even exist at all!    
+              <br></br>     
+            <div>
+              <img class="center" src="../images/absolute-code-real.png"> 
+            </div>
+              <br></br>     
+            <div>
+              <img class="center" src="../images/absolute-example.png"> 
+            </div>
+              <br></br> 
+            <div>    
+              Fortunately, the beige box hasn't actually disappeared; it is just hidden behind the blue box. 
+            </div>
+            <div>
               To confirm this is the case, we can test this out by resizing the beige box in our other class selectors so you can see it behind the blue box:
-<br></br>            
-            </div>
-<br></br>  
-                 <div>
-                     <img class="one-picture2" src="../images/absolute-test-example.png"> 
-                </div>
-<br></br>
-            <div class="smltext">
-                <strong>Now for something a little tricky...</strong>
-              <br>
+            </div>  
+              <br></br>            
+              <br></br>  
+              <div>
+               <img class="center" src="../images/absolute-test-example.png"> 
+              </div>
+              <br></br>
+            
+              <div>
+                <h4 class="txt-content-sub-heading">Now for something a little tricky...</h4>
+              </div>
+
+              <div class="txt-content">
                 Let's say I want my blue box to sit 10px from the top of my parent-box (the grey box). Watch what happens if you apply ‘top’ alongside the position absolute for the blue box:  
-            </div>
-<br></br>  
-                 <div>
-                     <img class="code-css-picture" src="../images/top-to-absolute-css.png"> 
-                </div>
-<br></br>                    
-                <div>
-                     <img class="one-picture2" src="../images/top-to-absolute-example.png"> 
-                </div>
-<br></br>
-            <div class="smltext">
+              </div>
+                <br></br>  
+              <div>
+                <img class="center" src="../images/top-to-absolute-css.png"> 
+              </div>
+                <br></br>                    
+              <div>
+                    <img class="center" src="../images/top-to-absolute-example.png"> 
+              </div>
+                  <br></br>
+              <div >
                 <em><strong>Why did this happen?</strong></em>
-              <br></br>
-              The code here is obviously reading this as 10px from the top of the webpage, but why?
-              <br>
+              </div>  
+              <div>
+              The code here is obviously reading this as 10px from the top of the webpage, but why? <br>
               This is because currently our ‘.parent-box’ is empty. As we know the default is static, then it cannot have anything positioned absolutely or relatively to it.
-<br></br>             
+              </div>
+                <br></br>     
+              <div>          
               <em><strong>How do we fix this?</strong></em>
-              <br></br>
+              </div>
               We need to apply one of the following positional elements to the ‘.parent-box’ class, so that our blue box is able to recognise it and position itself based on that condition.               <br>
 
-              <ul>
-                <li> Relative</li>
-                <li> Absolute</li>
-                <li> Sticky</li>
-                <li> Fixed</li>
-              </ul>
-<br></br>
-              The most common use case in this situation is to use 'position: relative;'.
-            </div>
-<br></br>  
-                <div>
-                     <img class="code-css-picture" src="../images/parent-relative-css.png"> 
-                </div>
-<br></br>                    
-                <div>
-                     <img class="one-picture2" src="../images/parent-relative-example.png"> 
-                </div>
-
-                   
-            <div class="smallest-text">
-
-                <em>Remembering that for the other coloured boxes to fall in-line you will need to fix a position for each element.</em>             
-           
-            </div>
-<br></br>
-          
-            <div class="center-text">
-              __________
-            </div>
-
-                   
-
-
-
-          <!--FIXED POSITIONING -->
-            <div >
-              <h5>Fixed positioning</h5>
-            </div>  
-              
-              <div class="smltext">
-                   <em>"The element is positioned relative to the browser window."</em>
+                <ul>
+                  <li> Relative</li>
+                  <li> Absolute</li>
+                  <li> Sticky</li>
+                  <li> Fixed</li>
+                </ul>
               </div>
-<br></br> 
               <div>
-                 <img class="code-picture" src="../images/position-fixed-code.png">
-              </div>        
-<br></br>     
-     
-            <div class="smltext">
-                Fixed positioning means fixed to a certain place on a browser window. It ignores all other elements and considers <html> to be its parent container. 
-<br></br>
-                Let’s continue our example and change our absolute value in the blue box to ‘fixed’.           
-                </div>
-<br></br>  
-                 <div>
-                   <img class="code-css-picture" src="../images/fixed-css.png"> 
-                 </dir>
-<br></br>                   
-                  <div>
-                   <img class="one-picture2" src="../images/fixed-example.png"> 
-                </div>
-<br></br>
-                As you can see it has ignored our parent-box position, even though it has a value of relative. 
-                 </div>
-<br></br>
-                   
-            <div class="smltext">
-                <strong>Interesting...</strong>
-              <br>
-              A ‘fixed’ position element will ALWAYS still be in the same position on the page when you scroll. So if you place a logo at the top left of your page and scroll down to the bottom. That logo will stay positioned at the top left no matter how far you've scrolled down the page. 
-             <br></br>
-              Importantly, this is not the case for absolute. Absolute will disappear if you scroll enough down the page. 
-            </div>
-                   
-<br></br>
+              --> The most common use case in this situation is to use 'position: relative;'.
+              </div>
+                <br></br>  
+              <div>
+                <img class="center" src="../images/parent-relative-css.png"> 
+              </div>
+                <br></br>                    
+              <div>
+                    <img class="center" src="../images/parent-relative-example.png"> 
+              </div>
+              <div class="txt-content txt-center">
+                  <em>Remembering that for the other coloured boxes to fall in-line you will need to fix a position for each element.</em>             
+              </div>
+                <br></br>
+              <div class="fancyline">____________</div>  
+                <br></br>
+
+<!--FIXED POSITIONING -->
             <div >
-              <h6>Congratulations on making it to the end! If you have any further questions, don't hesitate to hit me up in discord :)</h6>
+              <h4 class="txt-center txt-content-main-heading">Fixed positioning</h4>
+            </div>  
+              <div class="txt-center txt-content">
+                <em>"The element is positioned relative to the browser window."</em>
+              </div>
+                <br></br> 
+                <div>
+                  <img class="center" src="../images/position-fixed-code.png">
+                </div>        
+                  <br></br>     
+                  <div class="txt-content">
+                    Fixed positioning means fixed to a certain place on a browser window. It ignores all other elements and considers <html> to be its parent container. 
+                    <br></br>
+                    Let’s continue our example and change our absolute value in the blue box to ‘fixed’.           
+                  </div>
+                    <br></br>  
+                    <div>
+                      <img class="center" src="../images/fixed-css.png"> 
+                    </div>
+                      <br></br>                   
+                      <div>
+                        <img class="center" src="../images/fixed-example.png"> 
+                      </div>
+                        <br></br>
+                        <div>
+                        As you can see it has ignored our parent-box position, even though it has a value of relative. 
+                        </div>
+                        <br></br>
+                   
+              <div >
+                <em><strong>Interestingly...</strong></em>
+              </div>
+                <br>
+                <div>
+                A ‘fixed’ position element will ALWAYS still be in the same position on the page when you scroll. So if you place a logo at the top left of your page and scroll down to the bottom. That logo will stay positioned at the top left no matter how far you've scrolled down the page. 
+                </div>
+                  <br></br>
+                  <div>
+                    Importantly, this is not the case for absolute. Absolute will disappear if you scroll enough down the page. 
+                  </div>
+                   
+            <br></br>
+
+            <div class="txt-content-sub-heading txt-center">
+              <h4>Congratulations on making it to the end! If you have any further questions, don't hesitate to hit me up in discord :)</h4>
             </div>  
 
         </div>
