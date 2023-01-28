@@ -1,260 +1,221 @@
 
 /****** PAGE ELEMENTS *****/
 
-  /* headings */
+html,
+body {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
 
-    .main-heading {
-      font-family: 'Shadows Into Light Two', sans-serif;
-      font-style: normal;
-      text-align: center;
-      color:#21cace;
-      text-shadow: 1px 1px #0e6a73;
-      text-decoration: none;
-      font-size: 50px;
-      line-height: 50px;
-      border-radius: 4px;
-      padding-top: 30px;
-      padding-bottom: 5px;
-    }
-
-    .main-sub-heading {
-      font-family: 'Shadows Into Light Two', sans-serif;
-      font-style: normal;
-      text-align: center;
-      font-size: 45px;
-      line-height: 45px;
-      color:#656373;
-    }
-
-    .main-sub-heading-core {
-      font-family: 'Shadows Into Light Two', sans-serif;
-      font-style: normal;
-      text-align: center;
-      text-decoration-line: underline;
-      font-size: 45px;
-      line-height: 45px;
-      color:#6bd5de;
-    }
-
-    .main-sub-heading-tech {
-      font-family: 'Shadows Into Light Two', sans-serif;
-      font-style: normal;
-      text-align: center;
-      text-decoration-line: underline;
-      font-size: 45px;
-      line-height: 45px;
-      color:#c1dbff; 
-    }
-
-  /* body, paragraph, lists */
-    .p {
-      font-family: 'Shadows Into Light Two', sans-serif;
-      font-style: normal;
-      font-size: 20px;
-      text-align: center;
-      margin: 2 10 2 10;
-      width: 100%;
-      padding-right:10px;
-      padding-left:10px;
-    }
-
-    .p a{
-      font-family: 'Shadows Into Light Two', sans-serif;
-      font-style: normal;
-      font-size: 25px;
-      text-align: left;
-      margin: 2 10 2 10;
-      width: 100%;
-      height: auto;
-    }
-
-    .paragraph-left {
-      font-family: 'Shadows Into Light Two', sans-serif;
-      font-style: normal;
-      font-size: 25px;
-      text-align: left;
-      margin: 2 2 2 2;
-      width: 100%;
-      height: auto;
-    }
-
-    .quote {
-      font-family: 'Shadows Into Light Two', sans-serif;
-      font-style: normal;
-      font-size: 20px;
-      text-align: center;
-      margin: 2 10 2 10;
-      width: 100%;
-      color:rgb(142, 147, 153)
-    }
-
-    .h2 {
-      color: rgb(62, 62, 73);
-
-    }
-
-  /* images, videos , pictures */
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 70%;
-    }
-
-    .centre-img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .centre-img-mid {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-
-    /* the background page image  */
-    .html-style {
-      background: url(https://coolbackgrounds.io/images/backgrounds/white/white-trianglify-b79c7e1f.jpg) no-repeat center center
+html {
+  background: url(https://coolbackgrounds.io/images/backgrounds/white/white-trianglify-b79c7e1f.jpg) no-repeat center center
         fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
+  background-size: cover;
+}
 
+a {
+  font-family: 'Shadows Into Light Two', sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  text-align: left;
+  margin: 2 10 2 10;
+  width: 100%;
+  height: auto;
+}
 
-/***** CONTAINERS *****/
-
-    .main-content-box {
-      font-family: 'Shadows Into Light Two', sans-serif;
-      border-color: #e4dfdf;
-      border-right: 10px;
-      border-left: 10px;
-      box-shadow: 7px 7px #a8a8a8;
-      background-color: #ffffff;
-
-      word-wrap: break-word;
-      margin-left: 40px;
-      margin-right: 40px;
-
-      box-sizing: border-box;
-      padding: 40px;
-    }
-
-    .main-content-box1 {
-      border-color: #e2e2e2;
-      border-width: 3px 3px;
-      box-shadow: 7px 7px #a8a8a8;
-      
-      padding-left: 20px;
-      padding-bottom: 100px;
-      padding-right: 20px;
-      margin-bottom: 100px;
-      
-      background-color: #ffffff;
-      word-wrap: break-word;
-    
-      left: 8%;
-      right: 8%;
-      position: absolute;
-     }
-
-    /*columns  */
-      .column1 {
-        float: left;
-        width: 40%;
-        background-color: #6bd5de;
-        padding: 1rem 1rem;
-        text-align: center;
-        margin-right: 2px;
-        margin-top: 2px;
-        margin-bottom: 2px;
-        margin-left: 2px;
-      }
-      
-      .column2 {
-        float: left;
-        width: 40%;
-        color: white;
-        background-color: #c1dbff; 
-        padding: 1rem 1rem;
-        text-align: center;
-        margin-right: 2px;
-        margin-top: 2px;
-        margin-bottom: 2px;
-        margin-left: 2px; 
-      }
-
-
+.main-heading,
+.main-sub-heading,
+.main-sub-heading-core,
+.nav,
+.main-content-box
+{
+  font-family: 'Shadows Into Light Two', sans-serif;
+  font-style: normal;
+}
 
 /***** NAVIGATION bar *****/
 
-    .nav {
-      background-color: #a4acb4;
-      overflow: hidden;
-      font-family: 'Shadows Into Light Two', sans-serif;
-      font-style: normal;
-      margin: 0 2 2 2;
-      width: 100%;
-    }
+.nav {
+  display: block;
+  padding: 10px 15px;
+  background-color: #a4acb4;
+}
 
-    /* the links inside the nav bar  */
-    .nav a {
-      float: left;
-      display: block;
-      color: #ffffff;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
+/* the links inside the nav bar  */
+.nav a {
+  font-size: 17px;
+  color: #ffffff;
+  margin-right: 15px;
+  text-decoration: none;
+}
 
-    /* the color of links on hover */
-    .nav a:hover {
-      background-color: #ddd;
-      color:#2bb8e6;
-    }
+/* the color of links on hover */
+.nav a:hover {
+  color:#2bb8e6;
+}
 
-    /* active class to highlight the current page */
-    .nav a:active {
-      background-color: #d3eff8;
-      color: #2196F3;
-    }
+/* active class to highlight the current page */
+.nav a:active {
+  background-color: #d3eff8;
+  color: #2196F3;
+}
 
-    /* Hide the link that should open and close the topnav on small screens */
-    .topnav .icon {
-      display: none;
-    }
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
 
+/* headings */
+
+.main-heading {
+  text-align: center;
+  color:#21cace;
+  text-shadow: 1px 1px #0e6a73;
+  text-decoration: none;
+  font-size: 50px;
+  line-height: 50px;
+  border-radius: 4px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+.main-sub-heading {
+  font-size: 45px;
+  line-height: 1; /* line-height 1 = 100% of font-size */
+  color:#656373;
+}
+
+.main-sub-heading-core {
+  text-decoration-line: underline;
+  font-size: 45px;
+  line-height: 1;
+  color:#6bd5de;
+}
+
+.main-sub-heading-tech {
+  text-decoration-line: underline;
+  font-size: 45px;
+  line-height: 45px;
+  color:#c1dbff; 
+}
+
+/* body, paragraph, lists */
+.paragraph-left {
+  font-family: 'Shadows Into Light Two', sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  text-align: left;
+  margin: 2 2 2 2;
+  width: 100%;
+  height: auto;
+}
+
+.quote {
+  font-family: 'Shadows Into Light Two', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  margin: 2 10 2 10;
+  width: 100%;
+  color:rgb(142, 147, 153)
+}
+
+.h2 {
+  color: rgb(62, 62, 73);
+}
+
+/* helper classes */
+.txt-center {
+  text-align: center;
+ }
+
+/* images, videos , pictures */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.centre-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centre-img-mid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/***** CONTAINERS *****/
+.page-wrapper {
+  padding: 10px;
+}
+
+.main-content-box {
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  border-color: #e4dfdf;
+  border-right: 10px;
+  border-left: 10px;
+  box-shadow: 7px 7px #a8a8a8;
+  margin-left: 40px;
+  margin-right: 40px;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.blog-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog-column {
+  flex-grow: 1;
+  padding: 1rem;
+  text-align: center; 
+}
+
+/*columns  */
+.column1 {
+  background-color: #6bd5de;
+  margin-right: 5px;
+}
+
+.column2 {
+  background-color: #c1dbff; 
+  margin-left: 5px;
+}
 
 /***** FOOTER ******/
+.footer {
+  position: fixed;
+  width:100%;
+  bottom:5px;
+  left:0px;
+  background-color: #a4acb4;
+  border-top: 1px solid white;
+}
 
-    .footer {
-      position: fixed;
-      width:100%;
-      bottom:5px;
-      left:0px;
-      background-color: #a4acb4;
-      border-top: 1px solid white;
-    }
-
-    .footer-text {
-      font-family: 'Shadows Into Light Two', sans-serif;
-      font-size: 15px;
-      color: white;
-      text-align: right;
-      padding-right:10px;
-    }
+.footer-text {
+  font-family: 'Shadows Into Light Two', sans-serif;
+  font-size: 15px;
+  color: white;
+  text-align: right;
+  padding-right:10px;
+}
 
 
 /**** MEDIA QUERIES ****/
-
 /* Laptop:when the screen is 1200px wide or less */
 @media only screen and (max-width: 1200px) {
   .nav {
-    flex-direction:column;
+    flex-direction: column;
    }
 
   .main-heading {
@@ -264,10 +225,6 @@
   .main-sub-heading {
     font-size: 45px;
   } 
-
-  .nav {
-    flex-direction:column;
-  }
 
   .topnav a:not(:first-child) {
       display: none;
@@ -291,20 +248,9 @@
     max-width: 400px;
     height:auto;
   }
-
-  .main-content-box {
-    width: 80%;
-    height:auto;
-   }
-  }
-  
-
+}
 /* Tablet:when the screen is 768px wide or less */
 @media only screen and (max-width: 768px) {
-  .nav {
-    flex-direction:column;
-   }
-
   .main-heading {
     font-size: 35px;
   } 
@@ -313,14 +259,6 @@
     font-size: 30px;
   } 
 
-  .nav {
-    flex-direction:column;
-  }
-
-  .topnav a:not(:first-child) {
-      display: none;
-  } 
-
   .p {
     font-size: 20px;
    }
@@ -328,24 +266,14 @@
    .paragraph-left {
     font-size: 20px;
    }
-
-   .main-content-box {
-    width: 100%;
-    height:auto;
-   }
-
 }
-/* Mobile:when the screen is 400px wide or less */
-@media only screen and (max-width: 400px) {
-  .nav {
-    flex-direction:column;
-   }
-
-   .nav a {
+/* Mobile:when the screen is 425px wide or less */
+@media only screen and (max-width: 425px) {
+  .nav a {
     font-size: 12px;
    }
 
-   .main-heading {
+  .main-heading {
     font-size: 25px;
   } 
 
@@ -353,9 +281,14 @@
     font-size: 20px;
   } 
 
-  .topnav a:not(:first-child) {
-    display: none;
-  } 
+  .blog-wrapper {
+    flex-direction:column;
+  }
+
+  .column1, 
+  .column2 {
+    margin: 0px 0px 10px 0px;
+  }
 
   .p {
     font-size: 15px;
@@ -363,11 +296,6 @@
 
    .paragraph-left {
     font-size: 15px;
-   }
-
-   .main-content-box {
-    width: 100%;
-    height:auto;
    }
 }
 
