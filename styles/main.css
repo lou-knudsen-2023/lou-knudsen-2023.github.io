@@ -164,8 +164,8 @@ html {
   border-right: 10px;
   border-left: 10px;
   box-shadow: 7px 7px #a8a8a8;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
   box-sizing: border-box;
   padding: 40px;
 }
@@ -252,11 +252,11 @@ html {
 /* Tablet:when the screen is 768px wide or less */
 @media only screen and (max-width: 768px) {
   .main-heading {
-    font-size: 35px;
+    font-size: 40px;
   } 
 
   .main-sub-heading {
-    font-size: 30px;
+    font-size: 35px;
   } 
 
   .txt-content {
@@ -276,16 +276,22 @@ html {
 /* Mobile:when the screen is 425px wide or less */
 @media only screen and (max-width: 425px) {
   .nav a {
-    font-size: 12px;
+    font-size: 15px;
    }
 
   .main-heading {
-    font-size: 25px;
+    font-size: 30px;
   } 
 
   .main-sub-heading {
-    font-size: 20px;
+    font-size: 30px;
   } 
+
+  .main-sub-heading-tech, 
+  .main-sub-heading-core { 
+    font-size: 30px;
+  }
+
 
   .blog-wrapper {
     flex-direction:column;
