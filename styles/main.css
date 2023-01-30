@@ -134,9 +134,8 @@ html {
   color: rgb(62, 62, 73);
 }
 
-.fancyline {
-  text-decoration: dashed;
-  text-align: center;
+.underline {
+  text-decoration: underline;
 }
 
 
