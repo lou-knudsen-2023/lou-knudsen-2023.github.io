@@ -3,16 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- /* Krub font -->
+    <!--Krub, Barlow, Abel and Shadows into light two font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,400;1,200;1,400&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
-    <!-- /* Shadows into light two font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,400;1,200;1,400&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
-    <!-- /* main CSS style sheet -->
-   <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Krub:ital,wght@0,200;0,400;1,200;1,400&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">    <!-- /* main CSS style sheet -->
+   
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
   
   <title>What are the differences between relative, absolute, and fixed positioning?</title>
 </head>
@@ -50,11 +46,11 @@
             <div>
                 The first thing to know is that your webpage, in the absense of a position tag, will have a default setting of ‘static’. Which is represented like this in your CSS code:  position: static;
             </div>
-              <br></br>
+              <br>
             <div> 
                 Static means it will just follow the standard rules for HTML i.e. read the element's position by the order in which it is coded in the html page. 
             </div>
-              <br></br>  
+              <br> 
             <div> 
               For the rest of this blog we will use this example of our code and how it displays - three coloured boxes with adorable dogs in them. Nestled in a parent grey box. 
             </div>
@@ -189,7 +185,7 @@
                 </ul>
               </div>
               <div>
-              --> The most common use case in this situation is to use 'position: relative;'.
+                <em class="txt-content">The most common use case in this situation is to use 'position: relative;'.</em>
               </div>
                 <br></br>  
               <div>
@@ -211,58 +207,55 @@
               <h4 class="txt-center txt-content-main-heading">Fixed positioning</h4>
             </div>  
               <div class="txt-center txt-content">
-                <em>"The element is positioned relative to the browser window."</em>
+                  <em>"The element is positioned relative to the browser window."</em>
               </div>
                 <br></br> 
+                  <div>
+                    <img class="center" src="../images/position-fixed-code.png">
+                  </div>        
+                    <br></br>     
+                <div class="txt-content">
+                  Fixed positioning means fixed to a certain place on a browser window. It ignores all other elements and considers <html> to be its parent container. 
+                  <br></br>
+                  Let’s continue our example and change our absolute value in the blue box to ‘fixed’.           
+                </div>
+                  <br></br>  
                 <div>
-                  <img class="center" src="../images/position-fixed-code.png">
-                </div>        
-                  <br></br>     
-                  <div class="txt-content">
-                    Fixed positioning means fixed to a certain place on a browser window. It ignores all other elements and considers <html> to be its parent container. 
-                    <br></br>
-                    Let’s continue our example and change our absolute value in the blue box to ‘fixed’.           
-                  </div>
-                    <br></br>  
-                    <div>
-                      <img class="center" src="../images/fixed-css.png"> 
-                    </div>
-                      <br></br>                   
-                      <div>
-                        <img class="center" src="../images/fixed-example.png"> 
-                      </div>
-                        <br></br>
-                        <div>
-                        As you can see it has ignored our parent-box position, even though it has a value of relative. 
-                        </div>
-                        <br></br>
-                   
-              <div >
-                <em><strong>Interestingly...</strong></em>
-              </div>
-                <br>
+                  <img class="center" src="../images/fixed-css.png"> 
+                </div>
+                  <br></br>                   
                 <div>
-                A ‘fixed’ position element will ALWAYS still be in the same position on the page when you scroll. So if you place a logo at the top left of your page and scroll down to the bottom. That logo will stay positioned at the top left no matter how far you've scrolled down the page. 
+                  <img class="center" src="../images/fixed-example.png"> 
                 </div>
                   <br></br>
+
+                <div class="txt-content">
+                  As you can see it has ignored our parent-box position, even though it has a value of relative. 
+                    <br></br> 
+                  <div >
+                    <em><strong>Interestingly...</strong></em>
+                  </div>
+                    <br>
+                  <div>
+                  A ‘fixed’ position element will ALWAYS still be in the same position on the page when you scroll. So if you place a logo at the top left of your page and scroll down to the bottom. That logo will stay positioned at the top left no matter how far you've scrolled down the page. 
+                  </div>
+                    <br></br>
                   <div>
                     Importantly, this is not the case for absolute. Absolute will disappear if you scroll enough down the page. 
                   </div>
-                   
-            <br></br>
+                </div>  
+                <br></br>
 
-            <div class="txt-content-sub-heading txt-center">
-              <h4>Congratulations on making it to the end! If you have any further questions, don't hesitate to hit me up in discord :)</h4>
+            <div class="txt-content txt-center">
+              <h4><em>Congratulations on making it to the end! If you have any further questions, don't hesitate to hit me up in discord :)</em></h4>
             </div>  
-
         </div>
   
     <div class="footer">
     <footer class="footer-text">
       <strong>Lou knudsen TM</strong>
     </footer>
-  </body>
-    
-</div>
-
+    </div>
+    x
+</body>     
 </html>
